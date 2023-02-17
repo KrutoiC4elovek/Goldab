@@ -35,16 +35,16 @@ local colors = {
 local Window = Library.CreateLib("Name", "RJTheme3")
 
 -- Секция
-local Tab = Window:NewTab("Abilki")
+local Tab = Window:NewTab("Abillityfire")
 
 -- Подсекция
-local Section = Tab:NewSection("Abilki")
+local Section = Tab:NewSection("Abillity fire")
 
 -- Заголовок
-Section:NewLabel("Abilki")
+Section:NewLabel("Abbillki")
 
 -- Кнопка
-Section:NewButton("Gold abilka", "ButtonInfo", function()
+Section:NewButton("Gold abbilka", "ButtonInfo", function()
 	game:GetService("ReplicatedStorage").Goldify:FireServer(true)
 end)
 
